@@ -17,5 +17,5 @@ export default defineNuxtConfig({
   },
 
   modules: ['@nuxt/image', '@nuxt/eslint'],
-  compatibilityDate: '2024-09-05'
-})
+  compatibilityDate: '2024-09-05',
+});
