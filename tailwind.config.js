@@ -14,7 +14,7 @@ export default {
     extend: {
       fontFamily: {
         main: ['Prata', ...defaultTheme.fontFamily.serif],
-      }
+      },
     },
   },
   plugins: [],
