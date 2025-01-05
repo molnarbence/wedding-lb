@@ -13,7 +13,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        main: ['Prata', ...defaultTheme.fontFamily.serif],
+        tangerine: ['Tangerine', ...defaultTheme.fontFamily.serif],
+        sans: ['Ysabeau', ...defaultTheme.fontFamily.sans],
       },
     },
   },

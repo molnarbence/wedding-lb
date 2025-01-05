@@ -5,12 +5,26 @@
         <div class="text-center">
           <div class="container px-4 mx-auto">
             <div class="max-w-4xl mx-auto text-center">
-              <h1 class="font-main uppercase text-gray-100 text-4xl lg:text-5xl mt-24">Luca és Bence</h1>
+              <h1 class="font-tangerine text-gray-100 text-6xl lg:text-7xl mt-24">Luca és Bence</h1>
+              <!-- <h2 class="font-ysabeau text-gray-100 text-xl lg:text-2xl">2025. május 10.</h2> -->
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="w-full">
+      <div class="flex flex-row justify-center my-10">
+        <div class="w-32 text-center">
+          <h3>Hol?</h3>
+          <span>Zugligeti Szent Család Plébánia</span>
+        </div>
+        <div class="w-32 text-center">
+          <h3>Mikor?</h3>
+          <span>2025. május 10.</span>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="w-full bg-[#eeedeb]">Section 2</div> -->
   </header>
 </template>
 
