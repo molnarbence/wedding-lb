@@ -7,13 +7,13 @@
         <li><a href="/lakodalom" class="text-white">Lakodalom</a></li>
       </ul>
     </nav>
-    <header class="my-24">
-      <div class="w-full bg-center bg-cover bg-[url('/images/hero.jpg')]">
-        <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-2">
+    <header class="my-12">
+      <div class="w-full bg-center bg-cover bg-[url('/images/hero.jpg')] h-56 lg:h-96">
+        <div class="flex flex-col justify-end w-full h-full">
           <div class="text-center">
-            <div class="container px-4 mx-auto">
+            <div class="container mx-auto">
               <div class="max-w-4xl mx-auto text-center">
-                <h1 class="font-tangerine text-gray-100 text-6xl lg:text-7xl mt-48">Luca és Bence</h1>
+                <h1 class="font-tangerine text-gray-100 text-6xl lg:text-7xl mb-2">Luca és Bence</h1>
                 <!-- <h2 class="font-ysabeau text-gray-100 text-xl lg:text-2xl">2025. május 10.</h2> -->
               </div>
             </div>
