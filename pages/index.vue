@@ -43,17 +43,17 @@
 useSeoMeta({
   title: 'Köszöntő',
   description: 'Luca és Bence esküvője',
-  image: '/images/hero.jpg',
+  image: 'https://lucaesbence.info/images/hero_mini.jpg',
   url: 'https://lucaesbence.info',
   ogType: 'website',
   ogUrl: 'https://lucaesbence.info',
   ogTitle: 'Köszöntő',
   ogDescription: 'Luca és Bence esküvője',
-  ogImage: 'https://lucaesbence.info/images/hero.jpg',
+  ogImage: 'https://lucaesbence.info/images/hero_mini.jpg',
   ogImageWidth: '1370',
   ogImageHeight: '1827',
   ogLocale: 'hu_HU',
-  ogLogo: 'https://lucaesbence.info/images/hero.jpg',
+  ogLogo: 'https://lucaesbence.info/images/hero_mini.jpg',
   ogSiteName: 'Luca és Bence',
 });
 </script>
