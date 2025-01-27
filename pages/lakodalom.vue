@@ -1,5 +1,3 @@
 <template>
-    <div>
-        Lakodalom
-    </div>
+  <div>Lakodalom</div>
 </template>

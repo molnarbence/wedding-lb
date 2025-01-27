@@ -1,5 +1,3 @@
 <template>
-    <div>
-        Eskküvő
-    </div>
+  <div>Eskküvő</div>
 </template>
