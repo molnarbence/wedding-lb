@@ -39,6 +39,15 @@
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+useSeoMeta({
+  title: 'Köszöntő',
+  description: 'Luca és Bence esküvője',
+  ogDescription: 'Luca és Bence esküvője',
+  image: '/images/hero.jpg',
+  url: 'https://lucaesbence.info',
+  ogImage: 'https://lucaesbence.info/images/hero.jpg',
+})
+</script>
 
 <style></style>
