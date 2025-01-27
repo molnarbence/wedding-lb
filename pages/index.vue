@@ -47,7 +47,7 @@ useSeoMeta({
   image: '/images/hero.jpg',
   url: 'https://lucaesbence.info',
   ogImage: 'https://lucaesbence.info/images/hero.jpg',
-})
+});
 </script>
 
 <style></style>
