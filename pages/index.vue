@@ -43,9 +43,12 @@
 useSeoMeta({
   title: 'Köszöntő',
   description: 'Luca és Bence esküvője',
-  ogDescription: 'Luca és Bence esküvője',
   image: '/images/hero.jpg',
   url: 'https://lucaesbence.info',
+  ogType: 'website',
+  ogUrl: 'https://lucaesbence.info',
+  ogTitle: 'Köszöntő',
+  ogDescription: 'Luca és Bence esküvője',
   ogImage: 'https://lucaesbence.info/images/hero.jpg',
 });
 </script>
