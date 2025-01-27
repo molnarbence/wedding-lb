@@ -21,14 +21,16 @@
         </div>
       </div>
       <div class="w-full">
-        <div class="flex flex-row justify-center my-10">
-          <div class="w-32 text-center">
+        <div class="flex flex-col md:flex-row justify-center gap-4 my-10">
+          <div class="text-center">
             <h3>Hol?</h3>
             <span>Zugligeti Szent Család Plébánia</span>
+            <span></span>
           </div>
-          <div class="w-32 text-center">
+          <div class="text-center">
             <h3>Mikor?</h3>
             <span>2025. május 10.</span>
+            <span>15:00</span>
           </div>
         </div>
       </div>
