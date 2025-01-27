@@ -9,7 +9,7 @@
     </nav>
     <header class="my-24">
 
-      <div class="w-full bg-center bg-cover bg-[url('/images/hero.png')]">
+      <div class="w-full bg-center bg-cover bg-[url('/images/hero.jpg')]">
         <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
           <div class="text-center">
             <div class="container px-4 mx-auto">
