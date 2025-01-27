@@ -8,7 +8,7 @@
       </ul>
     </nav>
     <header class="my-12">
-      <div class="w-full bg-center bg-cover bg-[url('/images/hero.jpg')] h-56 lg:h-96">
+      <div class="w-full bg-center bg-cover bg-[url('/images/hero.jpg')] h-64 lg:h-96">
         <div class="flex flex-col justify-end w-full h-full">
           <div class="text-center">
             <div class="container mx-auto">
