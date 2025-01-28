@@ -1,3 +1,3 @@
 <template>
-  <div>Lakodalom</div>
+  <div>lakodalom</div>
 </template>
