@@ -20,7 +20,7 @@
 
 <script lang="ts" setup>
 const title = 'Visszajelzés határideje: április 13.';
-const description = "Luca és Bence esküvője";
+const description = 'Luca és Bence esküvője';
 useSeoMeta({
   title,
   description,
