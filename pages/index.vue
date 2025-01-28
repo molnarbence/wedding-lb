@@ -1,14 +1,7 @@
 <template>
   <div>
-    <nav class="bg-gray-800 p-4">
-      <ul class="flex justify-center space-x-4">
-        <li><a href="/" class="text-white">Köszöntő</a></li>
-        <li><a href="/eskuvo" class="text-white">Esküvő</a></li>
-        <li><a href="/lakodalom" class="text-white">Lakodalom</a></li>
-      </ul>
-    </nav>
-    <header class="my-12">
-      <div class="w-full bg-center bg-cover bg-[url('/images/hero.jpg')] h-64 lg:h-96">
+    <header class="mt-12">
+      <div class="w-full bg-center bg-cover bg-[url('/images/hero.jpg')] h-64 md:h-96">
         <div class="flex flex-col justify-end w-full h-full">
           <div class="text-center">
             <div class="container mx-auto">
@@ -20,22 +13,31 @@
           </div>
         </div>
       </div>
-      <div class="w-full">
-        <div class="flex flex-col md:flex-row justify-center gap-4 my-10">
-          <div class="text-center">
-            <h3>Hol?</h3>
-            <span>Zugligeti Szent Család Plébánia</span>
-            <span></span>
-          </div>
-          <div class="text-center">
-            <h3>Mikor?</h3>
-            <span>2025. május 10.</span>
-            <span>15:00</span>
-          </div>
-        </div>
-      </div>
       <!-- <div class="w-full bg-[#eeedeb]">Section 2</div> -->
     </header>
+
+    <div class="w-full mt-5">
+      <div class="flex flex-col md:flex-row gap-4 justify-center">
+        <div class="text-center">
+          <h3>Hol?</h3>
+          <span>Zugligeti Szent Család Plébánia</span>
+        </div>
+        <div class="text-center">
+          <h3>Mikor?</h3>
+          <span>2025. május 10.</span>
+          <span>15:00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full mt-5 bg-yellow-600 text-white p-5">
+      <h3 class="text-center text-2xl mb-4">Program</h3>
+      <div class="flex flex-col justify-center gap-4">
+        <div v-for="item in program" :key="item.time" class="flex flex-col md:flex-row gap-4 justify-center">
+          <span class="text-center"> {{ item.time }} - {{ item.title }} </span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -43,8 +45,8 @@
 useSeoMeta({
   title: 'Köszöntő',
   description: 'Luca és Bence esküvője',
-  image: 'https://lucaesbence.info/images/hero_mini.jpg',
-  url: 'https://lucaesbence.info',
+  // image: 'https://lucaesbence.info/images/hero_mini.jpg',
+  // url: 'https://lucaesbence.info',
   ogType: 'website',
   ogUrl: 'https://lucaesbence.info',
   ogTitle: 'Köszöntő',
@@ -53,9 +55,49 @@ useSeoMeta({
   ogImageWidth: '1200',
   ogImageHeight: '630',
   ogLocale: 'hu_HU',
-  ogLogo: 'https://lucaesbence.info/images/hero_mini.jpg',
+  // ogLogo: 'https://lucaesbence.info/images/hero_mini.jpg',
   ogSiteName: 'Luca és Bence',
 });
+
+interface ProgramItem {
+  time: string;
+  title: string;
+}
+
+const program: ProgramItem[] = [
+  {
+    time: '15:00',
+    title: 'Esküvő',
+  },
+  {
+    time: '16:00',
+    title: 'Állófogadás és fotózkodás a templomkertben',
+  },
+  {
+    time: '18:00',
+    title: 'Érkezés a vacsora helyszínére',
+  },
+  {
+    time: '18:30',
+    title: 'Megnyitó beszédek',
+  },
+  {
+    time: '19:00',
+    title: 'Vacsora',
+  },
+  {
+    time: '20:30',
+    title: 'Buli',
+  },
+  {
+    time: '22:00',
+    title: 'Torta',
+  },
+  {
+    time: '00:00',
+    title: 'Éjféli menü',
+  },
+];
 </script>
 
 <style></style>
