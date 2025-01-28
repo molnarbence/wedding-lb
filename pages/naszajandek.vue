@@ -17,7 +17,7 @@
         </div>
         <div class="text-center">
           <h3>Revolut link/tag:</h3>
-          <RevolutLinkButton tag="stitan" currency="huf" amount="1000" note="naszajandek" class="mt-2" />
+          <RevolutLinkButton tag="stitan" currency="huf" amount="1000" note="nászajándék" class="mt-2" />
         </div>
       </div>
     </div>
