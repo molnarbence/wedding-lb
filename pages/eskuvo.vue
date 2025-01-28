@@ -1,19 +1,9 @@
 <template>
   <div>
-    <header class="mt-12">
-      <div class="w-full bg-center bg-cover bg-[url('/images/maps_eskuvo.png')] h-64 md:h-96">
-        <div class="flex flex-col justify-end w-full h-full">
-          <div class="text-center">
-            <div class="container mx-auto">
-              <div class="max-w-4xl mx-auto text-center">
-                <!-- <h2 class="font-ysabeau text-gray-100 text-xl lg:text-2xl">2025. május 10.</h2> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="w-full bg-[#eeedeb]">Section 2</div> -->
+    <header class="w-full text-center h-12">
+      <PageHeading>Esküvő</PageHeading>
     </header>
+    <div class="w-full bg-center bg-cover bg-[url('/images/maps_eskuvo.png')] h-64 md:h-96"></div>
     <div class="w-full mt-5">
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <div class="text-center">
@@ -25,7 +15,7 @@
       </div>
     </div>
     <HighlightStrip>
-      <BasicHeading>Parkolás</BasicHeading>
+      <MiddleHeading>Parkolás</MiddleHeading>
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <span class="text-center">
           A templom utcájában és a játszótér túloldalán, a Zugligeti úton is lehet parkolni.

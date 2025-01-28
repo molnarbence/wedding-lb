@@ -31,7 +31,7 @@
     </div>
 
     <HighlightStrip>
-      <BasicHeading>Program</BasicHeading>
+      <MiddleHeading>Program</MiddleHeading>
       <div class="flex flex-col justify-center gap-4">
         <div v-for="item in program" :key="item.time" class="flex flex-col md:flex-row gap-4 justify-center">
           <span class="text-center"> {{ item.time }} - {{ item.title }} </span>
@@ -45,8 +45,6 @@
 useSeoMeta({
   title: 'Köszöntő',
   description: 'Luca és Bence esküvője',
-  // image: 'https://lucaesbence.info/images/hero_mini.jpg',
-  // url: 'https://lucaesbence.info',
   ogType: 'website',
   ogUrl: 'https://lucaesbence.info',
   ogTitle: 'Köszöntő',
@@ -55,7 +53,6 @@ useSeoMeta({
   ogImageWidth: '1200',
   ogImageHeight: '630',
   ogLocale: 'hu_HU',
-  // ogLogo: 'https://lucaesbence.info/images/hero_mini.jpg',
   ogSiteName: 'Luca és Bence',
 });
 

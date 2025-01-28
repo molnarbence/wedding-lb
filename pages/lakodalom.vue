@@ -1,8 +1,9 @@
 <template>
   <div>
-    <header class="mt-12">
-      <div class="w-full bg-center bg-cover bg-[url('/images/maps_lakodalom.png')] h-64 md:h-96"></div>
+    <header class="w-full text-center h-12">
+      <PageHeading>Lakodalom</PageHeading>
     </header>
+    <div class="w-full bg-center bg-cover bg-[url('/images/maps_lakodalom.png')] h-64 md:h-96"></div>
     <div class="w-full mt-5">
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <div class="text-center">
@@ -14,7 +15,7 @@
       </div>
     </div>
     <HighlightStrip>
-      <BasicHeading>Parkolás</BasicHeading>
+      <MiddleHeading>Parkolás</MiddleHeading>
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <span class="text-center">
           A vacsorahelyszínen pedig limitált számú parkolási lehetőség van az épület mögött, a Monostori út felől
