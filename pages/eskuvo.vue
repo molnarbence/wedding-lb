@@ -24,6 +24,16 @@
         </div>
       </div>
     </div>
+    <div class="w-full mt-5 bg-yellow-600 text-white p-5">
+      <h3 class="text-center text-2xl mb-4">Parkolás</h3>
+      <div class="flex flex-col justify-center gap-4">
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
+          <span class="text-center">
+            A templom utcájában és a játszótér túloldalán, a Zugligeti úton is lehet parkolni.
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
