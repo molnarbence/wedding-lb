@@ -17,3 +17,21 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+const title = 'Visszajelzés határideje: április 13.';
+const description = "Luca és Bence esküvője";
+useSeoMeta({
+  title,
+  description,
+  ogType: 'website',
+  ogUrl: 'https://lucaesbence.info/visszajelzes',
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: 'https://lucaesbence.info/images/hero_mini.jpg',
+  ogImageWidth: '1200',
+  ogImageHeight: '630',
+  ogLocale: 'hu_HU',
+  ogSiteName: 'Luca és Bence esküvője',
+});
+</script>

@@ -32,7 +32,7 @@ useSeoMeta({
   title,
   description,
   ogType: 'website',
-  ogUrl: 'https://lucaesbence.info',
+  ogUrl: 'https://lucaesbence.info/naszajandek',
   ogTitle: title,
   ogDescription: description,
   ogImage: 'https://lucaesbence.info/images/hero_mini.jpg',
