@@ -6,7 +6,6 @@
           <div class="text-center">
             <div class="container mx-auto">
               <div class="max-w-4xl mx-auto text-center">
-                <h1 class="font-tangerine text-gray-100 text-6xl lg:text-7xl mb-2">Luca és Bence</h1>
                 <!-- <h2 class="font-ysabeau text-gray-100 text-xl lg:text-2xl">2025. május 10.</h2> -->
               </div>
             </div>
@@ -20,7 +19,8 @@
         <div class="text-center">
           <h3>Zugligeti Szent Család Plébánia</h3>
           <div>1125. Szarvas Gábor út 52.</div>
-          <div class="sm:hidden"><a href="geo:47.5185,19.0155">Térkép</a></div>
+
+          <MapButton class="mt-4" geo="geo:47.5185,19.0155" maps="https://maps.app.goo.gl/qkghNgfxDRZpmEor6" />
         </div>
       </div>
     </div>
@@ -28,6 +28,8 @@
 </template>
 
 <script lang="ts" setup>
+import MapButton from '~/components/MapButton.vue';
+
 const description = 'Kezdés: 15:00, cím: 1125. Szarvas Gábor út 52.';
 useSeoMeta({
   title: 'Esküvő helyszín',
