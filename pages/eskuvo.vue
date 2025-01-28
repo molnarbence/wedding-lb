@@ -22,8 +22,8 @@
 
           <MapButton
             class="mt-4"
-            geo="geo:47.51687720938038, 18.985569587647085"
-            maps="https://maps.app.goo.gl/qkghNgfxDRZpmEor6"
+            lat="47.51687720938038"
+            long="18.985569587647085"
           />
         </div>
       </div>
