@@ -24,8 +24,8 @@
         </div>
       </div>
     </div>
-    <div class="w-full mt-5 bg-yellow-600 text-white p-5">
-      <h3 class="text-center text-2xl mb-4">Parkolás</h3>
+    <HighlightStrip>
+      <BasicHeading>Parkolás</BasicHeading>
       <div class="flex flex-col justify-center gap-4">
         <div class="flex flex-col md:flex-row gap-4 justify-center">
           <span class="text-center">
@@ -33,13 +33,11 @@
           </span>
         </div>
       </div>
-    </div>
+    </HighlightStrip>
   </div>
 </template>
 
 <script lang="ts" setup>
-import MapButton from '~/components/MapButton.vue';
-
 const description = 'Kezdés: 15:00, cím: 1125. Szarvas Gábor út 52.';
 useSeoMeta({
   title: 'Esküvő helyszín',

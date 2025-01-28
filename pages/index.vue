@@ -30,14 +30,14 @@
       </div>
     </div>
 
-    <div class="w-full mt-5 bg-yellow-600 text-white p-5">
-      <h3 class="text-center text-2xl mb-4">Program</h3>
+    <HighlightStrip>
+      <BasicHeading>Program</BasicHeading>
       <div class="flex flex-col justify-center gap-4">
         <div v-for="item in program" :key="item.time" class="flex flex-col md:flex-row gap-4 justify-center">
           <span class="text-center"> {{ item.time }} - {{ item.title }} </span>
         </div>
       </div>
-    </div>
+    </HighlightStrip>
   </div>
 </template>
 
