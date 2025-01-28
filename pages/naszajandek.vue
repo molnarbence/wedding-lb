@@ -12,8 +12,7 @@
         </div>
         <div class="text-center">
           <h3>Takács Bence</h3>
-          <div>bankszámlaszám</div>
-          <div>abc123</div>
+          <div>bankszámlaszám: 11773030-00055653</div>
         </div>
         <div class="text-center">
           <h3>Revolut link/tag:</h3>
