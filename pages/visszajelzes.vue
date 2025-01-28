@@ -1,5 +1,3 @@
 <template>
-    <div>
-        Visszajelzés
-    </div>
+  <div>Visszajelzés</div>
 </template>

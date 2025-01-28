@@ -1,6 +1,3 @@
 <template>
-    <div>
-        Nászajándék
-    </div>
-    
+  <div>Nászajándék</div>
 </template>
