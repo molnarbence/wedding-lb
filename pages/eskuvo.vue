@@ -26,3 +26,20 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+const description = 'Kezdés: 15:00, cím: 1125. Szarvas Gábor út 52.';
+useSeoMeta({
+  title: 'Esküvő helyszín',
+  description,
+  ogType: 'website',
+  ogUrl: 'https://lucaesbence.info/eskuvo',
+  ogTitle: 'Esküvő helyszín',
+  ogDescription: description,
+  ogImage: 'https://lucaesbence.info/images/maps_eskuvo.png',
+  ogImageWidth: '1200',
+  ogImageHeight: '630',
+  ogLocale: 'hu_HU',
+  ogSiteName: 'Luca és Bence esküvője',
+});
+</script>
