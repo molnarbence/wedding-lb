@@ -26,25 +26,24 @@
     </div>
     <HighlightStrip>
       <BasicHeading>Parkolás</BasicHeading>
-      <div class="flex flex-col justify-center gap-4">
-        <div class="flex flex-col md:flex-row gap-4 justify-center">
-          <span class="text-center">
-            A templom utcájában és a játszótér túloldalán, a Zugligeti úton is lehet parkolni.
-          </span>
-        </div>
+      <div class="flex flex-col md:flex-row gap-4 justify-center">
+        <span class="text-center">
+          A templom utcájában és a játszótér túloldalán, a Zugligeti úton is lehet parkolni.
+        </span>
       </div>
     </HighlightStrip>
   </div>
 </template>
 
 <script lang="ts" setup>
+const title = 'Esküvő helyszín';
 const description = 'Kezdés: 15:00, cím: 1125. Szarvas Gábor út 52.';
 useSeoMeta({
-  title: 'Esküvő helyszín',
+  title,
   description,
   ogType: 'website',
   ogUrl: 'https://lucaesbence.info/eskuvo',
-  ogTitle: 'Esküvő helyszín',
+  ogTitle: title,
   ogDescription: description,
   ogImage: 'https://lucaesbence.info/images/maps_eskuvo.png',
   ogImageWidth: '1200',
