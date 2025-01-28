@@ -20,7 +20,7 @@
           <h3>Zugligeti Szent Család Plébánia</h3>
           <div>1125. Szarvas Gábor út 52.</div>
 
-          <MapButton class="mt-4" geo="geo:47.5185,19.0155" maps="https://maps.app.goo.gl/qkghNgfxDRZpmEor6" />
+          <MapButton class="mt-4" geo="geo:47.51687720938038, 18.985569587647085" maps="https://maps.app.goo.gl/qkghNgfxDRZpmEor6" />
         </div>
       </div>
     </div>
