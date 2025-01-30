@@ -18,8 +18,7 @@
       <MiddleHeading>Parkolás</MiddleHeading>
       <div class="flex flex-col md:flex-row gap-4 justify-center">
         <span class="text-center">
-          A vacsorahelyszínen pedig limitált számú parkolási lehetőség van az épület mögött, a Monostori út felől
-          érkezve
+          A vacsorahelyszínen limitált számú parkolási lehetőség van az épület mögött, a Monostori út felől érkezve
         </span>
       </div>
     </HighlightStrip>
